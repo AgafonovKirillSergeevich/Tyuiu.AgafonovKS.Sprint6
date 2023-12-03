@@ -34,7 +34,7 @@
             this.groupBoxResult_AKS = new System.Windows.Forms.GroupBox();
             this.textBoxOutput_AKS = new System.Windows.Forms.TextBox();
             this.textBoxResult_AKS = new System.Windows.Forms.TextBox();
-            this.groupBoчInPut_AKS = new System.Windows.Forms.GroupBox();
+            this.groupBoxInPut_AKS = new System.Windows.Forms.GroupBox();
             this.textBoxEndstep_AKS = new System.Windows.Forms.TextBox();
             this.textBoxStartstep_AKS = new System.Windows.Forms.TextBox();
             this.textBoxStop_AKS = new System.Windows.Forms.TextBox();
@@ -44,7 +44,7 @@
             this.groupBoxTask_AKS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_AKS)).BeginInit();
             this.groupBoxResult_AKS.SuspendLayout();
-            this.groupBoчInPut_AKS.SuspendLayout();
+            this.groupBoxInPut_AKS.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxTask_AKS
@@ -112,18 +112,18 @@
             this.textBoxResult_AKS.TabIndex = 0;
             this.textBoxResult_AKS.TabStop = false;
             // 
-            // groupBoчInPut_AKS
+            // groupBoxInPut_AKS
             // 
-            this.groupBoчInPut_AKS.Controls.Add(this.textBoxEndstep_AKS);
-            this.groupBoчInPut_AKS.Controls.Add(this.textBoxStartstep_AKS);
-            this.groupBoчInPut_AKS.Controls.Add(this.textBoxStop_AKS);
-            this.groupBoчInPut_AKS.Controls.Add(this.textBoxStart_AKS);
-            this.groupBoчInPut_AKS.Location = new System.Drawing.Point(19, 185);
-            this.groupBoчInPut_AKS.Name = "groupBoчInPut_AKS";
-            this.groupBoчInPut_AKS.Size = new System.Drawing.Size(252, 72);
-            this.groupBoчInPut_AKS.TabIndex = 2;
-            this.groupBoчInPut_AKS.TabStop = false;
-            this.groupBoчInPut_AKS.Text = "Ввод данных";
+            this.groupBoxInPut_AKS.Controls.Add(this.textBoxEndstep_AKS);
+            this.groupBoxInPut_AKS.Controls.Add(this.textBoxStartstep_AKS);
+            this.groupBoxInPut_AKS.Controls.Add(this.textBoxStop_AKS);
+            this.groupBoxInPut_AKS.Controls.Add(this.textBoxStart_AKS);
+            this.groupBoxInPut_AKS.Location = new System.Drawing.Point(19, 185);
+            this.groupBoxInPut_AKS.Name = "groupBoxInPut_AKS";
+            this.groupBoxInPut_AKS.Size = new System.Drawing.Size(252, 72);
+            this.groupBoxInPut_AKS.TabIndex = 2;
+            this.groupBoxInPut_AKS.TabStop = false;
+            this.groupBoxInPut_AKS.Text = "Ввод данных";
             // 
             // textBoxEndstep_AKS
             // 
@@ -188,7 +188,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonResult_AKS);
             this.Controls.Add(this.buttonHelp_AKS);
-            this.Controls.Add(this.groupBoчInPut_AKS);
+            this.Controls.Add(this.groupBoxInPut_AKS);
             this.Controls.Add(this.groupBoxResult_AKS);
             this.Controls.Add(this.groupBoxTask_AKS);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -201,8 +201,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_AKS)).EndInit();
             this.groupBoxResult_AKS.ResumeLayout(false);
             this.groupBoxResult_AKS.PerformLayout();
-            this.groupBoчInPut_AKS.ResumeLayout(false);
-            this.groupBoчInPut_AKS.PerformLayout();
+            this.groupBoxInPut_AKS.ResumeLayout(false);
+            this.groupBoxInPut_AKS.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -211,7 +211,7 @@
 
         private System.Windows.Forms.GroupBox groupBoxTask_AKS;
         private System.Windows.Forms.GroupBox groupBoxResult_AKS;
-        private System.Windows.Forms.GroupBox groupBoчInPut_AKS;
+        private System.Windows.Forms.GroupBox groupBoxInPut_AKS;
         private System.Windows.Forms.TextBox textBoxTask_AKS;
         private System.Windows.Forms.PictureBox pictureBoxFormula_AKS;
         private System.Windows.Forms.TextBox textBoxEndstep_AKS;
