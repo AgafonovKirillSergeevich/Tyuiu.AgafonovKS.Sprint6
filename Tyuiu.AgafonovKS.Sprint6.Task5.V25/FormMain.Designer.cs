@@ -29,9 +29,9 @@ namespace Tyuiu.AgafonovKS.Sprint6.Task5.V25
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelTop_AKS = new System.Windows.Forms.Panel();
             this.groupBoxTask_AKS = new System.Windows.Forms.GroupBox();
             this.textBoxTask_AKS = new System.Windows.Forms.TextBox();
@@ -121,17 +121,17 @@ namespace Tyuiu.AgafonovKS.Sprint6.Task5.V25
             // 
             // chartResult_AKS
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chartResult_AKS.ChartAreas.Add(chartArea5);
+            chartArea6.Name = "ChartArea1";
+            this.chartResult_AKS.ChartAreas.Add(chartArea6);
             this.chartResult_AKS.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            this.chartResult_AKS.Legends.Add(legend5);
+            legend6.Name = "Legend1";
+            this.chartResult_AKS.Legends.Add(legend6);
             this.chartResult_AKS.Location = new System.Drawing.Point(0, 0);
             this.chartResult_AKS.Name = "chartResult_AKS";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartResult_AKS.Series.Add(series5);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.chartResult_AKS.Series.Add(series6);
             this.chartResult_AKS.Size = new System.Drawing.Size(418, 336);
             this.chartResult_AKS.TabIndex = 0;
             this.chartResult_AKS.Text = "chart1";
@@ -213,6 +213,7 @@ namespace Tyuiu.AgafonovKS.Sprint6.Task5.V25
             this.Controls.Add(this.panelMidle_AKS);
             this.Controls.Add(this.panelLeft_AKS);
             this.Controls.Add(this.panelTop_AKS);
+            this.MinimumSize = new System.Drawing.Size(818, 497);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 5 | Вариант 25 | Агафонов К. С.";
